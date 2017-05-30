@@ -17,6 +17,15 @@ public class Senha {
 	 */
 	private String senha[];
 
+	public String[] getSenha() {
+		return senha;
+	}
+
+	public void setSenha(String[] senha) {
+		this.senha = senha;
+		this.pinosInseridos = 4;
+	}
+
 	/**
 	 * o atributo pinosInseridos representa o total de pinos já inseridos na
 	 * senha. Essa senha só pode ter 4 pinos.
